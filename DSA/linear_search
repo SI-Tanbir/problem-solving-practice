@@ -1,0 +1,13 @@
+let d = [3, 4, 5, 6, 13, 1, 30];
+
+function linearSearch(data, target) {
+  for (let i of data) {
+    if (i == target) {
+      console.log('target is', i);
+      return; // Exit the loop after finding the target
+    }
+  }
+  console.log('Target not found'); // If the target isn't found
+}
+
+linearSearch(d, 1);
