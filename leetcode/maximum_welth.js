@@ -1,24 +1,32 @@
 var maximumWealth = function (accounts) {
   let len = accounts.length;
   let container = {}; // Object to store sums dynamically
-
+  let result = [];
   // Iterate over each subarray in the accounts
-  accounts.forEach((value, index) => {
-    // Calculate the sum of each subarray
-    let sum = value.reduce((acc, curr) => acc + curr, 0);
+  // accounts.forEach((value, index) => {
+  //   // Calculate the sum of each subarray
+  //   let sum = value.reduce((acc, curr) => acc + curr, 0);
 
-    // Dynamically create variable to store sum
-    container[`sum_${index}`] = sum;
-  });
+  for (i = 0; i < len; i++) {
+    let initLength = accounts[i].length;
+    for (j = 0; j < initLength; j++) {
+      result = result + accounts[i][j];
+    }
+    console.log(result);
+  }
 
-  // Optional: You can return the container if needed
-  console.log(container);
+  //   // Dynamically create variable to store sum
+  //   container[`sum_${index}`] = sum;
+  // });
 
-  // Example: Find the maximum sum (wealth)
-  let maxWealth = Math.max(...Object.values(container));
-  console.log("Maximum wealth:", maxWealth);
+  // // Optional: You can return the container if needed
+  // console.log(container);
 
-  return maxWealth;
+  // // Example: Find the maximum sum (wealth)
+  // let maxWealth = Math.max(...Object.values(container));
+  // console.log("Maximum wealth:", maxWealth);
+
+  // return maxWealth;
 };
 
 // Example usage:
