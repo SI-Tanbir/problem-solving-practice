@@ -6,7 +6,7 @@
 #arr = [1, 7, 3, 4, 9, 5] 
 #max_product(arr) # Output: 63 (9*7)
 
-soluation:
+# soluation:
 
 def max_product(arr):
     max_product = 0
