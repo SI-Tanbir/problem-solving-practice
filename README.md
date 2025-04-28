@@ -1,6 +1,6 @@
 # Problem Solving Practice
 
-Welcome to the **Problem Solving Practice** repository! This repository is dedicated to improving problem-solving skills through hands-on practice with coding challenges and algorithm exercises. Here, you’ll find solutions, explanations, and tips to enhance your approach to programming problems.
+Welcome to the **Problem Solving Practice** repository! This repository is dedicated to improving problem-solving skills through hands-on practice with coding challenges and algorithm exercises. Here, you’ll find solutions, explanations, and tips to enhance your approach to programming problems..
 
 ## Repository Overview
 
